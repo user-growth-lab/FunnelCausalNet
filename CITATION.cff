@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "FunnelCausalNet"
+version: "1.0.0"
+type: software
+license: MIT
+repository-code: "https://github.com/user-growth-lab/FunnelCausalNet"
+url: "https://arxiv.org/abs/2608.11675"
+authors:
+  - family-names: "Zhang"
+    given-names: "Yu"
+    orcid: "https://orcid.org/0009-0003-5368-1356"
+  - family-names: "Wang"
+    given-names: "Zhihan"
+    orcid: "https://orcid.org/0009-0000-8880-7172"
+  - family-names: "Chen"
+    given-names: "Guanlin"
+    orcid: "https://orcid.org/0009-0008-1374-3926"
+  - family-names: "Jiang"
+    given-names: "Min"
+    orcid: "https://orcid.org/0009-0007-0949-6048"
+  - family-names: "Li"
+    given-names: "Shuai"
+preferred-citation:
+  type: conference-paper
+  title: "FunnelCausalNet: Funnel-aware Joint Conversion-Revenue Uplift for Multi-tier Coupon Allocation"
+  conference:
+    name: "The 35th ACM International Conference on Information and Knowledge Management (CIKM 2026)"
+  status: in-press
+  year: 2026
+  url: "https://arxiv.org/abs/2608.11675"
+  authors:
+    - family-names: "Zhang"
+      given-names: "Yu"
+    - family-names: "Wang"
+      given-names: "Zhihan"
+    - family-names: "Chen"
+      given-names: "Guanlin"
+    - family-names: "Jiang"
+      given-names: "Min"
+    - family-names: "Li"
+      given-names: "Shuai"

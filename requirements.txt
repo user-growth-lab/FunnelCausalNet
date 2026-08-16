@@ -1,0 +1,25 @@
+# Python dependencies for FunnelCausalNet replication.
+# Tested on Python 3.9-3.11 (macOS / Linux).
+#
+# These are compatibility ranges, not an environment lock and not evidence of
+# the original manuscript environment. See ENVIRONMENT.md for release-validation
+# versions and archival-environment guidance.
+
+# Core scientific stack.
+numpy>=1.23,<3.0
+pandas>=2.0,<3.0
+scipy>=1.10,<2.0
+scikit-learn>=1.2,<2.0
+matplotlib>=3.7,<4.0
+
+# Deep uplift baselines and FunnelCausalNet (CPU build is sufficient; tests pass under torch CPU).
+torch>=2.0,<3.0
+
+# Optional: progress bars in long-running scripts.
+# tqdm>=4.64
+
+# Notes:
+# - LP relaxations use scipy.optimize.linprog (HiGHS solver, bundled with scipy>=1.6).
+#   No external LP solver (gurobi, cvxpy, pulp) is required.
+# - The semi-synthetic Criteo-MT7 generator depends only on numpy/pandas.
+# - All experiments run on CPU; GPU is not required.

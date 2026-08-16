@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.*_dataset_path
+data/*
+!data/README.md
+results/
+checkpoints/
+*.pt
+*.pth
+*.pkl
+*.joblib
